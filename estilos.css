@@ -72,7 +72,7 @@ body{background-image:linear-gradient(135deg,#0a85e93b,#2a09e66b,#14b7e96b,#10b4
     line-height: 5px;
     color: white;
   }
-  footer h2{
+  footer h2, h3{
     text-align: center; 
   }
   main h1{
