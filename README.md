@@ -1,2 +1,0 @@
-# Conhecedor
-Jornal do Bairro
