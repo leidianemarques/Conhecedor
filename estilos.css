@@ -1,0 +1,85 @@
+body{background-image:linear-gradient(135deg,#0a85e93b,#2a09e66b,#14b7e96b,#10b4b43b);
+     margin: 5%; 5%
+     
+  }
+  #menu ul li{
+    float: left;
+    display: inline-block;
+    width: 150px;
+    font-size: 110%;
+    font-family: 'Nunito Sans', sans-serif;
+    height: 50px;
+      
+    
+  }
+  header h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 120%;
+    text-align: center;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    color: white;
+    background-color: #1e0788;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    }
+  header h2{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #520df1;
+    transition: color 600ms ease;
+    animation: muda 2s ease-in alternate infinite;
+  }
+  @keyframes muda {
+    from{
+      letter-spacing: 0px;
+    }
+    to{
+      letter-spacing: 15px;
+    }
+  }
+  header h2:hover{
+    color: #e334af6b;
+  }
+  article img{
+    width: 24%;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  article{
+    clear: left;
+  }
+  footer{
+    clear: left;
+    margin-top: 100px;
+    padding: 5px;
+    background-color: #4207e2;
+  }
+  footer p{
+    text-align: center;
+    line-height: 5px;
+    color: white;
+  }
+  main h1{
+    margin-top: 100px;
+  }
+  iframe{
+    margin-top: 30px;
+    margin-left: 130px;
+  }
+  p{
+    text-align: justify;
+  }
+  main img{
+    border: 3px solid #e334af3b;
+    border-radius: 10px;
+  }
+  #menu li:hover{
+    background-color: #54095e6b;
+  }
+  
+  
+  
